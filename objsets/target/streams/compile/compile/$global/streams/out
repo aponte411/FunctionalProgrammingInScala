@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\davidaponte\Downloads\objsets\objsets\src\main\scala\objsets\TweetSet.scala:115:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : objsets.Tweet[0m
+[0m[[0m[31merror[0m] [0m[0m required: objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    else left.filterAcc(p, right.filterAcc(p, elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\davidaponte\Downloads\objsets\objsets\src\main\scala\objsets\TweetSet.scala:144:44: value mostRetweetedAcc is not a member of objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    if (acc.retweets < elem.retweets) left.mostRetweetedAcc(right.mostRetweetedAcc(elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\davidaponte\Downloads\objsets\objsets\src\main\scala\objsets\TweetSet.scala:144:67: value mostRetweetedAcc is not a member of objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    if (acc.retweets < elem.retweets) left.mostRetweetedAcc(right.mostRetweetedAcc(elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\davidaponte\Downloads\objsets\objsets\src\main\scala\objsets\TweetSet.scala:145:15: value mostRetweetedAcc is not a member of objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    else left.mostRetweetedAcc(right.mostRetweetedAcc(acc))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\davidaponte\Downloads\objsets\objsets\src\main\scala\objsets\TweetSet.scala:145:38: value mostRetweetedAcc is not a member of objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    else left.mostRetweetedAcc(right.mostRetweetedAcc(acc))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
